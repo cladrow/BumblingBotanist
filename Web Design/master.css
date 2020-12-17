@@ -1,0 +1,148 @@
+
+body {
+  background-image: url("images/spikes.png");
+  font-family: Helvetica, sans-serif;
+  text-align: center;
+}
+h1,h2,h3,h4 {
+color: #DF744A;
+}
+
+.header {
+  text-align: left;
+  margin-left: 25%;
+  margin-right: 25%;
+  font-size: 25px;
+}
+
+.picture {
+
+  width: 220px;
+  display: inline-block;
+  margin-left: auto;
+  margin-right: auto;
+  /*float: left;*/
+  margin:10px;
+  height: 198px;
+  background-color: #BFD8D2;
+  border-radius: 25px;
+  background-repeat: no-repeat;
+  background-position: bottom;
+}
+
+figure {
+  display: block;
+  /*display: inline-block;
+  margin-left: auto;
+  margin-right: auto;*/
+  width: 202px;
+  height: 202px;
+  margin: 0px;
+  padding: 9px;
+  text-align: center;
+  font-size: 18px;
+}
+
+figure img {
+  width: 200px;
+  height: 150px;
+  border: 1px solid #d6d6d6;
+  border-radius: 25px;
+}
+/* soil mix list */
+
+.mix{
+  all: revert;
+  text-align: left;
+  margin-left: 15%;
+  font-size: 25px;
+  font-family: Helvetica, sans-serif;
+}
+
+.data {
+  text-align: left;
+  margin-left: 25%;
+  margin-right: 25%;
+  font-size: 25px;
+}
+
+ul.menu {
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+  overflow: hidden;
+  background-color: #5D5C61;
+  display: block;
+}
+
+li {
+  display: block;
+  float: left;
+}
+
+li a {
+  display: block;
+  color: white;
+  text-align: center;
+  padding: 14px 16px;
+  text-decoration: none;
+}
+
+li a:hover {
+  background-color: #B1A296;
+}
+
+
+/* hover section for plant data */
+.factwrap {
+  position: relative;
+}
+.factwrap .fact {
+  display: none;
+  position: absolute;
+  bottom: 30%;
+  left: 5%;
+  right: 5%;
+  background-color: #FEDCD2;
+  padding: .5em;
+  border-radius: 25px;
+  text-align: left;
+}
+.factwrap:hover .fact {
+  display: block;
+}
+
+/*social media icons and email */
+.fa {
+  padding: 20px;
+  width: 50px;
+  text-align: center;
+  text-decoration: none;
+}
+
+.fa:hover {
+  opacity: 0.7;
+}
+
+.fa-facebook {
+  background: #3B5998;
+  color: white;
+}
+
+.fa-twitter {
+  background: #55ACEE;
+  color: white;
+}
+
+.fa-instagram {
+  background: #125688;
+  color: white;
+}
+
+/* About Me */
+ .me img {
+  width: 500px;
+  border-radius: 25px;
+  align-items: flex-start;
+
+}
